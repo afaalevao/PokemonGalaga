@@ -1,0 +1,48 @@
+﻿body {
+    background-color: dimgray;
+    animation-name: animation1;
+    animation-duration: 4s;
+}
+
+@keyframes animation1 {
+    from {background-color: black;}
+    to {background-color: dimgray;}
+}
+
+#title {
+    color: limegreen;
+    text-align: center;
+    font-size: 400%;
+    font-family: cursive, "Arial Black", Gadget, sans-serif;
+    text-shadow: 2px 2px red;
+    transition: color 1s;
+}
+
+#title:hover {
+    color: forestgreen;
+}
+
+.stats {
+    font-size: 200%;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#canvas {
+    border: 1px solid black;
+    background-image: url("images/stage.png");
+    background-size: cover;
+	-webkit-transition: background-image 0.2s ease-in-out;
+	transition: background-image 0.2s ease-in-out;
+}
+
+#instructions {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
